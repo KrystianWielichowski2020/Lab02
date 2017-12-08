@@ -1,10 +1,16 @@
-package com.ebookfrenzy.lab03.presentation;
+package com.ebookfrenzy.lab02.presentation;
 
+import android.os.Bundle;
 import android.widget.TextView;
 
-import com.ebookfrenzy.lab03.entity.Recipe;
-import com.ebookfrenzy.lab03.interfaces.RecipeView;
-import com.ebookfrenzy.lab03.repository.RecipeRepository;
+import com.ebookfrenzy.lab02.R;
+import com.ebookfrenzy.lab02.entity.Recipe;
+import com.ebookfrenzy.lab02.interfaces.RecipeView;
+import com.ebookfrenzy.lab02.repository.RecipeRepository;
+
+import org.w3c.dom.Text;
+
+import java.util.List;
 
 /**
  * Created by Krystian on 03.12.2017.

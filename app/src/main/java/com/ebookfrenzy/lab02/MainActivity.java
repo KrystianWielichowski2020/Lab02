@@ -1,4 +1,4 @@
-package com.ebookfrenzy.lab03;
+package com.ebookfrenzy.lab02;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
 
-import com.ebookfrenzy.lab02.R;
-import com.ebookfrenzy.lab03.interfaces.RecipeView;
-import com.ebookfrenzy.lab03.presentation.RecipePresenter;
+import com.ebookfrenzy.lab02.entity.Recipe;
+import com.ebookfrenzy.lab02.interfaces.RecipeView;
+import com.ebookfrenzy.lab02.presentation.RecipePresenter;
 
 public class MainActivity extends AppCompatActivity implements RecipeView{
 

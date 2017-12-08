@@ -1,4 +1,4 @@
-package com.ebookfrenzy.restauracja;
+package com.ebookfrenzy.lab02;
 
 import org.junit.Test;
 
